@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/boot
+    username: root
+    password: RootToot
+
+server:
+  port: 8080
